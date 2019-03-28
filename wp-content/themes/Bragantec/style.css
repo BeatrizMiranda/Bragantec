@@ -1,0 +1,29 @@
+/* Theme Name: Bragantec */
+/* Menu */
+@@font-face {
+  font-family: myriadBold;
+  src: url(font/bold.ttf);
+}
+@font-face {
+  font-family: Catamaran-ExtraLight;
+  src: url(font/Catamaran-ExtraLight.ttf);
+}
+body{
+  font-family: Catamaran-ExtraLight;
+}
+.menuPrincipal{
+  padding: 10px 50px;
+  font-family: myriadBold;
+  font-weight: bolder;
+}
+.navbar-brand, .nav-link{
+  color: rgb(197,26,27) !important;
+}
+.disabled{
+  color: #6c757d !important;
+  pointer-events: none;
+  cursor: default;
+}
+.navbar-brand:hover, .nav-link:hover{
+  text-shadow: #b8b8b8 0.1em 0.1em 0.2em;
+}
