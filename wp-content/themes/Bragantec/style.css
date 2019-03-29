@@ -16,10 +16,11 @@
 
 body{
   font-family: myriadRegular;
-  min-width: 326px;
+  min-width: 300px;
 }
-h1{
+h1, h2{
   color: rgb(197,26,27) !important;
+  font-size: 20px;
 }
 /* MENU */
 .menuPrincipal{
@@ -43,7 +44,7 @@ h1{
 header{
   padding-right: 0px !important;
   padding-top: 30px;
-  background-image: url("img/teste.jpg");
+  background-image: url("img/capa_site.jpg");
   height:330px;
 }
 .row{
@@ -77,14 +78,23 @@ header div div{
 /* index */
 
 #imgConstrucao{
-    max-width:400px;
+    max-width:350px;
     max-height:400px;
     width: auto;
     height: auto;
 }
 .atualizacoes{
   padding-top: 50px;
-  padding-left: 170px;
+  padding-left: 160px;
+}
+@media (max-width: 500px){
+  .atualizacoes{
+    padding-left: 20px;
+  }
+  #imgConstrucao{
+      width:300px;
+      height:auto;
+  }
 }
 #botaoFormulario{
   right: 15px;
@@ -93,11 +103,44 @@ header div div{
   border:0;
 }
 
+/* footer */
+footer{
+  padding-right: 0 !important;
+}
+.fundoVer{
+  background-color: rgb(197,26,27);
+  color:white !important;
+  padding:5px;
+}
+footer div div{
+  padding:5px;
+}
+.fundoVer h2{
+  color:white !important;
+}
+.tituloFooter{
+  border-bottom: lightgray solid 0.5px;
+}
+.contato{
+  padding-top:50px;
+}
+.desenvolvedoras img{
+  border-radius: 50%;
+  width: 100px;
+}
+.contatoDesenv, .apoios{
+    border-bottom: lightgray solid 0.5px;
+    padding-left: 60px;
+}
+.cnpq{
+  width:220px;
+  height: auto;
+}
+
 /* Cadastro de email */
 table td{
   padding: 15px;
 }
 table tr{
   text-align: left;
-
 }
