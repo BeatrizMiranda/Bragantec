@@ -30,7 +30,7 @@
 
 
 		<nav class="navbar navbar-expand-lg navbar-light bg-light menuPrincipal">
-		  <a class="navbar-brand" href="#">
+		  <a class="navbar-brand" href="<?php echo get_site_url();?>">
 				<img src="<?php echo get_stylesheet_directory_uri();?>/img/lampada.png" width="30" height="30" alt="">
 				Bragantec
 			</a>
@@ -50,3 +50,18 @@
 		    </ul>
 		  </div>
 		</nav>
+
+		<header class="container-fluid">
+			<div class="row">
+				<div class="float-right setaLaranja col-md-3">
+					Podem participar alunos do 8° e 9° ano e alunos do médio/técnico
+					até 21 anos!
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="float-right setaVermelha col-md-2">
+					<span style="font-family: myriadBold">Inscrições abertas</span> de 01/06 a 02/08
+				</div>
+			</div>
+		</header>

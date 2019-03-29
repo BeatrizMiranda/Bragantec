@@ -1,16 +1,26 @@
 /* Theme Name: Bragantec */
 /* Menu */
-@@font-face {
+/*          Fontes              */
+@font-face {
   font-family: myriadBold;
   src: url(font/bold.ttf);
 }
 @font-face {
-  font-family: Catamaran-ExtraLight;
-  src: url(font/Catamaran-ExtraLight.ttf);
+  font-family: myriadRegular;
+  src: url(font/regular.otf);
 }
+
+* {
+  box-sizing: border-box;
+}
+
 body{
-  font-family: Catamaran-ExtraLight;
+  font-family: myriadRegular;
 }
+h1{
+  color: rgb(197,26,27) !important;
+}
+/* MENU */
 .menuPrincipal{
   padding: 10px 50px;
   font-family: myriadBold;
@@ -26,4 +36,64 @@ body{
 }
 .navbar-brand:hover, .nav-link:hover{
   text-shadow: #b8b8b8 0.1em 0.1em 0.2em;
+}
+
+/* Header */
+header{
+  padding-right: 0px !important;
+  padding-top: 30px;
+  background-image: url("img/teste.jpg");
+  height:330px;
+}
+.row{
+  margin-right: 0px;
+}
+header div div{
+  background-size: contain;
+  color:white;
+}
+/* setas no header  */
+
+.setaLaranja{
+  background-image: url("img/setaLaranja.png");
+  padding: 9px 30px;
+  top:140px;
+}
+.setaLaranja, .setaVermelha{
+  right:0;
+  position: absolute;
+  background-repeat: round;
+}
+
+.setaVermelha{
+  background-image: url("img/setaVermelha.png");
+  padding: 10px 40px;
+  top:220px;
+}
+
+/* index */
+
+#imgConstrucao{
+    max-width:400px;
+    max-height:400px;
+    width: auto;
+    height: auto;
+}
+.atualizacoes{
+  padding-top: 50px;
+}
+#botaoFormulario{
+  right: 15px;
+  position: absolute;
+  background-color: rgb(197,26,27);
+  border:0;
+}
+
+/* Cadastro de email */
+table td{
+  padding: 15px;
+}
+table tr{
+  text-align: left;
+
 }
