@@ -53,14 +53,14 @@
 
 		<header class="container-fluid">
 			<div class="row">
-				<div class="float-right setaLaranja col-md-3">
+				<div class="float-right setaLaranja col-md-3 col-xs-3 ">
 					Podem participar alunos do 8° e 9° ano e alunos do médio/técnico
 					até 21 anos!
 				</div>
 			</div>
 			<br>
 			<div class="row">
-				<div class="float-right setaVermelha col-md-2">
+				<div class="float-right setaVermelha col-md-2 col-sx-2">
 					<span style="font-family: myriadBold">Inscrições abertas</span> de 01/06 a 02/08
 				</div>
 			</div>
