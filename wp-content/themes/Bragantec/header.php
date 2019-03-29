@@ -10,7 +10,7 @@
 
 
     <!-- favicon na aba do navegador -->
-    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri();?>/img/favicon.ico">
+    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri();?>/img/logo_planta.ico">
 
     <!-- para deixar a aba no  mobile colorida -->
   	<meta name="theme-color" content="#7ca7db">
@@ -31,7 +31,7 @@
 
 		<nav class="navbar navbar-expand-lg navbar-light bg-light menuPrincipal">
 		  <a class="navbar-brand" href="<?php echo get_site_url();?>">
-				<img src="<?php echo get_stylesheet_directory_uri();?>/img/lampada.png" width="30" height="30" alt="">
+				<img src="<?php echo get_stylesheet_directory_uri()?>/img/icone2_site.jpg" width="40" alt="icone bragantec">
 				Bragantec
 			</a>
 

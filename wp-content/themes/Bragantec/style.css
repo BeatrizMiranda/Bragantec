@@ -87,15 +87,7 @@ header div div{
   padding-top: 50px;
   padding-left: 160px;
 }
-@media (max-width: 500px){
-  .atualizacoes{
-    padding-left: 20px;
-  }
-  #imgConstrucao{
-      width:300px;
-      height:auto;
-  }
-}
+
 #botaoFormulario{
   right: 15px;
   position: absolute;
@@ -121,6 +113,9 @@ footer div div{
 .tituloFooter{
   border-bottom: lightgray solid 0.5px;
 }
+.tituloMobile{
+  display: none;
+}
 .contato{
   padding-top:50px;
 }
@@ -136,6 +131,9 @@ footer div div{
   width:220px;
   height: auto;
 }
+.perfil:hover img{
+    box-shadow: gray 0.2em 0.1em 0.5em;
+}
 
 /* Cadastro de email */
 table td{
@@ -143,4 +141,26 @@ table td{
 }
 table tr{
   text-align: left;
+}
+@media (max-width: 500px){
+  .atualizacoes{
+    padding-left: 20px;
+  }
+  #imgConstrucao{
+      width:300px;
+      height:auto;
+  }
+  .img{
+    width:100px !important;
+  }
+  .imgIfMeninas{
+    width: 150px;
+  }
+  .tituloFooter{
+    display: none;
+  }
+  .tituloMobile{
+    display: block;
+    border-top: lightgray solid 0.5px;
+  }
 }
