@@ -12,8 +12,9 @@
         <div class="row col-md-12 contatoDesenv">
           <div class="col-md-4 row contato">
             <h2 class="col-md-12 text-center tituloMobile">Contato:</h2>
-            <img class="col-md-3 img" src="<?php echo get_stylesheet_directory_uri()?>/img/icone2_site.jpg" alt="informaçoes da bragantec" width="30" height="65">
+            <img class="col-md-3 img" src="<?php echo get_stylesheet_directory_uri()?>/img/icone2_site.jpg" alt="informaçoes da bragantec" width="30" height="82" style=" padding-top: 15px;">
             <div class="col-md-9">
+              Bragantec: <br>
               Facebook: <a href="https://www.facebook.com/bragantec/" target="_blank"> facebook.com/bragantec</a><br>
               E-mail: <a href="mailto:bragantec@ifsp.edu.br" target="_blank">bragantec@ifsp.edu.br</a>
             </div>
@@ -21,6 +22,7 @@
           <div class="col-md-4 row contato">
             <img class="col-md-3 col-xs-12 img" src="<?php echo get_stylesheet_directory_uri()?>/img/if.png" alt="informaçoes da bragantec" width="70" height="120" style="padding-right: 0px;padding-left: 0px;">
             <div class="col-md-9">
+              IFSP - Bra: <br>
               Telefone: <a href="tel:1140347800" target="_blank">(11) 4034-7800</a><br>
               E-mail: <a href="mailto:braganca@ifsp.edu.br" target="_blank">braganca@ifsp.edu.br</a><br>
               Facebook: <a href="https://www.facebook.com/ifsp.braganca.paulista/?__tn__=%2CdkC-R-R&eid=ARApuT4n3HgL3O4V7QvZFMbotO2kJieXSOUENu7hd0653M4odQI7eTkEohKNTeiceAoNtJj6LXapV5G0&hc_ref=ARQYYPJ6m2C8EmJmuWfIhR4SXYnNzyH4C8fcJjOpSwI9oK1YAyGsOeL16HTPD79Sd08&fref=gs&dti=441352152644120&hc_location=group_dialog" target="_blank">@ifsp.braganca.paulista</a><br>

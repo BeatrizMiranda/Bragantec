@@ -31,7 +31,7 @@
 
 		<nav class="navbar navbar-expand-lg navbar-light bg-light menuPrincipal">
 		  <a class="navbar-brand" href="<?php echo get_site_url();?>">
-				<img src="<?php echo get_stylesheet_directory_uri()?>/img/icone2_site.jpg" width="40" alt="icone bragantec">
+				<img src="<?php echo get_stylesheet_directory_uri()?>/img/icone2_site.jpg" width="30" alt="icone bragantec">
 				Bragantec
 			</a>
 
@@ -53,6 +53,12 @@
 
 		<header class="container-fluid">
 			<div class="row">
+				<div class="float-left offset-md-2 col-md-5 info">
+					<span class="titulo">IX Bragantec</span><br>
+					<br>
+					<span class="subtitulo">FEIRA DE CIÊNCIA E TECNOLOGIA DP IFSP 2019</span>
+					<br>
+				</div>
 				<div class="float-right setaLaranja col-md-3 col-xs-3 ">
 					Podem participar alunos do 8° e 9° ano e alunos do médio/técnico
 					até 21 anos!
@@ -60,8 +66,11 @@
 			</div>
 			<br>
 			<div class="row">
-				<div class="float-right setaVermelha col-md-2 col-sx-2">
-					<span style="font-family: myriadBold">Inscrições abertas</span> de 01/06 a 02/08
+				<div class="float-right setaVermelha col-md-3 col-sx-3">
+					Inscrições <span  style="font-family: myriadBold">ABERTAS e GRATUITAS!</span> de 01/06 a 02/08
 				</div>
 			</div>
 		</header>
+		<div class="col-md-12 text-center subtituloDia">
+			Salve a data: 19, 20, 21 de Setembro!
+		</div>

@@ -54,13 +54,40 @@ header div div{
   background-size: contain;
   color:white;
 }
+/* Titulo */
+.info{
+  margin-top: 53px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: solid  rgba(255, 255, 255, 0.2) 2px;
+  padding-bottom: 10px;
+}
+.titulo{
+  font-size: 65px;
+  color: rgb(197,26,27);
+  font-family: myriadBold;
+  text-shadow: gray 0.07em 0.08em 0.2em;
+}
+.subtituloDia{
+  font-size: 30px;
+  color: rgb(197,26,27);
+  font-family: myriadBold;
+  padding-top: 15px;
+}
+.subtitulo{
+  font-size: 25px;
+  color:  black;
+  font-family: myriadBold;
+  text-shadow: gray 0.07em 0.08em 0.2em;
+}
+
 /* setas no header  */
 
 .setaLaranja{
   background-image: url("img/setaLaranja.png");
-  padding: 9px 30px;
-  top:140px;
-  max-width: 400px;
+  padding: 9px 0px 9px 30px;
+  top:135px;
+  max-width: 370px;
+  font-size: 18px;
 }
 .setaLaranja, .setaVermelha{
   right:0;
@@ -70,9 +97,10 @@ header div div{
 
 .setaVermelha{
   background-image: url("img/setaVermelha.png");
-  padding: 10px 40px;
-  top:220px;
-  max-width: 220px;
+  padding: 10px 0px 10px 40px;
+  top:225px;
+  font-size: 18px;
+  max-width: 320px;
 }
 
 /* index */
@@ -85,7 +113,13 @@ header div div{
 }
 .atualizacoes{
   padding-top: 50px;
-  padding-left: 160px;
+}
+.inputEmail{
+  padding-left:60px;
+	padding-top:5px;
+	height:42px;
+	background-image:url(img/email.png);
+	background-repeat:no-repeat;
 }
 
 #botaoFormulario{
@@ -93,6 +127,9 @@ header div div{
   position: absolute;
   background-color: rgb(197,26,27);
   border:0;
+}
+#botaoFormulario:hover{
+  box-shadow: gray 0.1em 0.2em 0.2em;
 }
 
 /* footer */
@@ -127,12 +164,14 @@ footer div div{
     border-bottom: lightgray solid 0.5px;
     padding-left: 60px;
 }
-.cnpq{
-  width:220px;
-  height: auto;
-}
-.perfil:hover img{
+
+.perfil:hover img, .desenvolvedoras:hover img{
     box-shadow: gray 0.2em 0.1em 0.5em;
+}
+
+.cnpq{
+  width:150px;
+  height: auto;
 }
 
 /* Cadastro de email */
