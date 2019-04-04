@@ -130,7 +130,7 @@ header div div{
   margin-bottom: 60px;
 }
 .divInput{
-  psdding-right:0px;
+  padding-right:0px;
 }
 .inputEmail{
   padding-left:60px;
@@ -176,15 +176,46 @@ footer div div{
 .tituloMobile{
   display: none;
 }
+.img{
+  max-width:80px;
+}
 .contato{
-  padding-top:50px;
+  padding-top:30px;
+}
+.braga{
+  padding-top:40px;
+}
+.contatoDivBraga{
+  padding-left:60px;
+  padding-top:5px;
+  background-image:url(img/logo_planta.ico);
+  background-repeat:no-repeat;
+}
+.contatoDivIf{
+  padding-left:70px;
+  background-image:url(img/if.jpg);
+  background-repeat:no-repeat;
+}
+.contatoIfMeninas{
+  padding-left:120px;
+  background-image:url(img/ifMeninasLogo.png);
+  background-repeat:no-repeat;
+  text-align: center;
+}
+
+.desenvolvedoras{
+  width:50%;
 }
 .desenvolvedoras img{
   border-radius: 50%;
   width: 100px;
 }
+.desenvolvedoras p {
+  padding-right:0px;
+}
 .contatoDesenv, .apoios{
     border-bottom: lightgray solid 0.5px;
+    padding-left: 45px;
 }
 
 .perfil:hover img, .desenvolvedoras:hover img{
@@ -203,23 +234,8 @@ table td{
 table tr{
   text-align: left;
 }
+
 @media (max-width: 500px){
-  /* .atualizacoes{
-    padding-left: 20px;
-  }
-  #imgConstrucao{
-      width:300px;
-      height:auto;
-  }
-  .img{
-    width:100px !important;
-  }
-  .imgIfMeninas{
-    width: 150px;
-  }
-
-
-  */
   .tituloFooter{
     display: none;
   }
