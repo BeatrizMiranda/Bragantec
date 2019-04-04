@@ -13,9 +13,9 @@
     <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri();?>/img/logo_planta.ico">
 
     <!-- para deixar a aba no  mobile colorida -->
-  	<meta name="theme-color" content="#7ca7db">
-  	<meta name="apple-mobile-web-app-status-bar-style" content="#7ca7db">
-  	<meta name="msapplication-navbutton-color" content="#7ca7db">
+  	<meta name="theme-color" content="rgb(197,26,27)">
+  	<meta name="apple-mobile-web-app-status-bar-style" content="rgb(197,26,27)">
+  	<meta name="msapplication-navbutton-color" content="rgb(197,26,27)">
 
     <!--Bootstrap-->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -53,24 +53,31 @@
 
 		<header class="container-fluid">
 			<div class="row">
-				<div class="float-left offset-md-2 col-md-5 info">
+				<div class=" offset-md-2 col-md-5 info mobile-hide">
 					<span class="titulo">IX Bragantec</span><br>
 					<br>
 					<span class="subtitulo">FEIRA DE CIÊNCIA E TECNOLOGIA DP IFSP 2019</span>
 					<br>
 				</div>
-				<div class="float-right setaLaranja col-md-3 col-xs-3 ">
+				<div class=" setaLaranja col-md-3 col-xs-3 ">
 					Podem participar alunos do 8° e 9° ano e alunos do médio/técnico
 					até 21 anos!
 				</div>
 			</div>
 			<br>
 			<div class="row">
-				<div class="float-right setaVermelha col-md-3 col-sx-3">
+				<div class=" setaVermelha col-md-3 col-sx-3">
 					Inscrições <span  style="font-family: myriadBold">ABERTAS e GRATUITAS!</span> de 01/06 a 02/08
 				</div>
 			</div>
 		</header>
 		<div class="col-md-12 text-center subtituloDia">
 			Salve a data: 19, 20, 21 de Setembro!
+		</div>
+		<div class="col-xs-12 text-center desktop-hide" id="ancora">
+			<a id="ancora" href="#email">
+				<div class="">
+						<img class="setaMais" src="<?php echo get_stylesheet_directory_uri()?>/img/seta.png" alt="veja mais" width="30" height="40">
+				</div>
+			</a>
 		</div>

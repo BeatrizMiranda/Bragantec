@@ -1,5 +1,14 @@
 /* Theme Name: Bragantec */
 /* Menu */
+
+@media only screen and (max-width: 400px) {
+ .mobile-hide{ display: none !important; }
+}
+
+@media only screen and (min-width: 500px) {
+ .desktop-hide{ display: none !important; }
+}
+
 /*          Fontes              */
 @font-face {
   font-family: myriadBold;
@@ -10,13 +19,14 @@
   src: url(font/regular.otf);
 }
 
+
 * {
   box-sizing: border-box;
 }
 
 body{
   font-family: myriadRegular;
-  min-width: 300px;
+  min-width: 340px;
 }
 h1, h2{
   color: rgb(197,26,27) !important;
@@ -68,10 +78,10 @@ header div div{
   text-shadow: gray 0.07em 0.08em 0.2em;
 }
 .subtituloDia{
-  font-size: 30px;
+  font-size: 27px;
   color: rgb(197,26,27);
   font-family: myriadBold;
-  padding-top: 15px;
+  padding-top: 5px;
 }
 .subtitulo{
   font-size: 25px;
@@ -102,6 +112,9 @@ header div div{
   font-size: 18px;
   max-width: 320px;
 }
+.setaMais{
+   transform: rotate(90deg);
+}
 
 /* index */
 
@@ -113,6 +126,11 @@ header div div{
 }
 .atualizacoes{
   padding-top: 50px;
+  margin-right: -15px;
+  margin-bottom: 60px;
+}
+.divInput{
+  psdding-right:0px;
 }
 .inputEmail{
   padding-left:60px;
@@ -122,11 +140,16 @@ header div div{
 	background-repeat:no-repeat;
 }
 
+.botaoSubmit{
+  padding-left: 0px;
+}
 #botaoFormulario{
   right: 15px;
   position: absolute;
   background-color: rgb(197,26,27);
   border:0;
+  margin-top:2px;
+  width:150px;
 }
 #botaoFormulario:hover{
   box-shadow: gray 0.1em 0.2em 0.2em;
@@ -162,7 +185,6 @@ footer div div{
 }
 .contatoDesenv, .apoios{
     border-bottom: lightgray solid 0.5px;
-    padding-left: 60px;
 }
 
 .perfil:hover img, .desenvolvedoras:hover img{
@@ -182,7 +204,7 @@ table tr{
   text-align: left;
 }
 @media (max-width: 500px){
-  .atualizacoes{
+  /* .atualizacoes{
     padding-left: 20px;
   }
   #imgConstrucao{
@@ -195,11 +217,14 @@ table tr{
   .imgIfMeninas{
     width: 150px;
   }
+
+
+  */
   .tituloFooter{
     display: none;
   }
   .tituloMobile{
     display: block;
-    border-top: lightgray solid 0.5px;
+    padding-left:20px;
   }
 }
