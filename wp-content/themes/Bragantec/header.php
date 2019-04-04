@@ -71,11 +71,11 @@
 				</div>
 			</div>
 		</header>
-		<div class="col-md-12 text-center subtituloDia">
+		<div id="ancoraEmail" class="col-md-12 text-center subtituloDia">
 			Salve a data: 19, 20, 21 de Setembro!
 		</div>
-		<div class="col-xs-12 text-center desktop-hide" id="ancora">
-			<a id="ancora" href="#email">
+		<div class="col-xs-12 text-center ancora">
+			<a id="ancora" href="#ancoraEmail">
 				<div class="">
 						<img class="setaMais" src="<?php echo get_stylesheet_directory_uri()?>/img/seta.png" alt="veja mais" width="30" height="40">
 				</div>
