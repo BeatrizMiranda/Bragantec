@@ -55,6 +55,7 @@ header{
   padding-right: 0px !important;
   padding-top: 30px;
   background-image: url("img/capa_site.jpg");
+  background-repeat:no-repeat;
   height:330px;
 }
 .row{
@@ -154,7 +155,12 @@ header div div{
 #botaoFormulario:hover{
   box-shadow: gray 0.1em 0.2em 0.2em;
 }
-
+#queBragantec{
+  margin-bottom: 50px;
+}
+#queBragantec p {
+  margin-left: 50px;
+}
 /* footer */
 footer{
   padding-right: 0 !important;
@@ -188,7 +194,7 @@ footer div div{
 .contatoDivBraga{
   padding-left:60px;
   padding-top:5px;
-  background-image:url(img/logo_planta.ico);
+  background-image:url(img/);
   background-repeat:no-repeat;
 }
 .contatoDivIf{

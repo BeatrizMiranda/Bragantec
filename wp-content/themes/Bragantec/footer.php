@@ -34,22 +34,16 @@
             <h2 class="col-md-12 text-center tituloMobile">O site foi desenvolvido por:</h2>
             <div class="col-md-6 col-xs-6 desenvolvedoras">
               <a href="https://www.linkedin.com/in/beatriz-miranda-ferreira/" target="_blank">
-                <div class="col-md-12 perfil">
+                <div class="col-md-12 perfil" data-toggle="tooltip" data-placement="bottom" title="Beatriz Miranda - Programadora">
                     <img src="<?php echo get_stylesheet_directory_uri()?>/img/beatriz.jpg" alt="Beatriz Miranda">
-                </div>
-                <div class="row">
-                  <p class="col-md-12">Beatriz Miranda <br> Programadora</p>
                 </div>
               </a>
             </div>
 
             <div class="col-md-6  col-xs-6 desenvolvedoras">
               <a href="https://www.linkedin.com/in/laura-a-de-almeida-chaile/" target="_blank">
-                <div class="col-md-12 perfil">
+                <div class="col-md-12 perfil"  data-toggle="tooltip" data-placement="bottom" title="Laura Chaile - Designer">
                     <img src="<?php echo get_stylesheet_directory_uri()?>/img/laura.jpg" alt="Laura Chaile">
-                </div>
-                <div class="row">
-                  <p class="col-md-12">Laura Chaile <br> Designer</p>
                 </div>
               </a>
             </div>
