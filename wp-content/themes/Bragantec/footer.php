@@ -74,10 +74,10 @@
             </a>
           </div>
 
-          <div class="col-md-6  col-xs-6 desenvolvedoras">
+          <div class="col-md-6  col-xs-6 desenvolvedoras text-left">
             <a href="https://www.linkedin.com/in/laura-a-de-almeida-chaile/" target="_blank">
-              <div class="col-md-12 perfil"  data-toggle="tooltip" data-placement="bottom" title="Laura Chaile - Designer">
-                  <img src="<?php echo get_stylesheet_directory_uri()?>/img/laura.jpg" alt="Laura Chaile">
+              <div class="col-md-12 perfil">
+                  <img src="<?php echo get_stylesheet_directory_uri()?>/img/laura.jpg" alt="Laura Chaile"   data-toggle="tooltip" data-placement="bottom" title="Laura Chaile - Designer">
               </div>
             </a>
           </div>
