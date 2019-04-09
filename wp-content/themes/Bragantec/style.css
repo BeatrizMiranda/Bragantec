@@ -144,7 +144,7 @@ header div div{
 #botaoFormulario:hover{
   box-shadow: gray 0.1em 0.2em 0.2em;
 }
-#queBragantec{
+#queBragantec, #comoapoiar{
   margin-bottom: 50px;
 }
 
@@ -207,6 +207,7 @@ a{
   height: auto;
 }
 
+
 /* Cadastro de email */
 table td{
   padding: 15px;
@@ -219,9 +220,16 @@ table tr{
   .footerPadding{
     padding-left: 150px;
   }
-  #queBragantec p {
+  #queBragantec p, #comoapoiar p {
     margin-left: 50px;
   }
+  .realizacao{
+    padding-right: 100px;
+  }
+  .apoio{
+    padding-left: 100px;
+  }
+
 }
 /* mobile */
 @media (max-width: 500px){

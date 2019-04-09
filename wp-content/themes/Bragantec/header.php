@@ -44,11 +44,11 @@
 		      <li class="nav-item active">
 		        <a class="nav-link" href="<?php echo get_site_url();?>">Home <span class="sr-only">(current)</span></a>
 		      </li>
-					<li class="nav-item" title="Como Apoiar">
-						 <a class="nav-link" href="#">Como Apoiar</a>
+					<li class="nav-item ancoraBragantec" title="O que é Bragantec?">
+						<a  href="#queBragantec" class="nav-link">O que é Bragantec</a>
 					</li>
-					<li class="nav-item ancoraBragantec" title="Como Apoiar">
-						 <a class="nav-link" href="#queBragantec">O que é Bragantec?</a>
+					<li class="nav-item" title="Como Apoiar">
+						 <a  href="#comoapoiar" class="nav-link">Como Apoiar</a>
 					</li>
 					<!-- <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Em breve mais informações">
 						<a class="nav-link disabled" href="#">Como Participar</a>
@@ -76,7 +76,7 @@
 		</div>
 		<div class="col-xs-12 text-center ancora desktop-hide">
 			<a href="#ancoraEmail">
-				<div class="">
+				<div>
 						<img class="setaMais" src="<?php echo get_stylesheet_directory_uri()?>/img/seta.png" alt="veja mais" width="30" height="40">
 				</div>
 			</a>

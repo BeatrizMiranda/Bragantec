@@ -5,19 +5,19 @@
             <h2>Bragantec</h2>
         </div>
 
-        <div class="col-md-6 row footerPadding">
-          <h2 class="col-md-12">Realização: </h2>
+        <div class="col-md-6 row footerPadding realizacao">
+          <h2 class="col-md-12 text-md-right">Realização: </h2>
           <br>
-          <div class="col-md-12 text-center">
+          <div class="col-md-12 text-md-right">
             <a href="https://bra.ifsp.edu.br/" target="_blank">
               <img src="<?php echo get_stylesheet_directory_uri()?>/img/IF_logo.png" alt="Site do IFSP - Bragança Paulista - SP" width="100">
             </a>
           </div>
         </div>
-        <div class="col-md-6 row ">
-          <h2 class="col-md-12">Apoiada por: </h2>
+        <div class="col-md-6 row apoio">
+          <h2 class="col-md-12 text-md-left">Apoiada por: </h2>
           <br>
-          <div class="col-md-12 text-center">
+          <div class="col-md-12 text-md-left">
             <a href="http://www.cnpq.br/" target="_blank">
               <img class="cnpq" src="<?php echo get_stylesheet_directory_uri()?>/img/cnpq.png" alt="logo cnpq">
             </a>
@@ -27,7 +27,7 @@
 
         <div class="col-md-12 fundoVer contato row">
 
-          <div class="text-center col-xs-6" style="margin-top: 15px">
+          <div class="text-right col-xs-6" style="margin-top: 15px; flex:0.7">
             Fale Conosco:
           </div>
           <div class="text-center contato col-xs-6">
@@ -40,13 +40,13 @@
             <div class="text-left text-xs-right" style="flex:0.4; margin-top:5px">Siga Nos:</div>
             <div class="text-md-left text-xs-center">
               <a href="https://www.facebook.com/bragantec/" target="_blank">
-                <img src="<?php echo get_stylesheet_directory_uri()?>/img/facebook.svg" alt="Link facebook" width="45">
+                <img src="<?php echo get_stylesheet_directory_uri()?>/img/facebookIcon.svg" alt="Link facebook" width="50" height="48">
               </a>
               <a href="https://www.instagram.com/bragantec/?hl=pt-br" target="_blank">
-                <img src="<?php echo get_stylesheet_directory_uri()?>/img/insta.svg" alt="link para instagram" width="45">
+                <img src="<?php echo get_stylesheet_directory_uri()?>/img/instagramIcone.svg" alt="link para instagram" width="50" style="margin-bottom:6px;">
               </a>
               <a href="https://www.youtube.com/channel/UC9ZVkgkfnuiXCQc9Sf_lfhQ/featured" target="_blank">
-                <img src="<?php echo get_stylesheet_directory_uri()?>/img/yt.svg" alt="link para youtube" width="45">
+                <img src="<?php echo get_stylesheet_directory_uri()?>/img/ytIcon.png" alt="link para youtube" width="45">
               </a>
             </div>
           </div>

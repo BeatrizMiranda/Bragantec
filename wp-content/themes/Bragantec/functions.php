@@ -11,4 +11,5 @@
   if(isset($_POST['cadastro'])){
     registrarCadastro();
   }
+  add_theme_support( 'post-thumbnails' ); 
 ?>
