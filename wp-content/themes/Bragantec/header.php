@@ -50,21 +50,15 @@
 					<li class="nav-item ancoraBragantec" title="Como Apoiar">
 						 <a class="nav-link" href="#queBragantec">O que é Bragantec?</a>
 					</li>
-					<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Em breve mais informações">
+					<!-- <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Em breve mais informações">
 						<a class="nav-link disabled" href="#">Como Participar</a>
-					</li>
+					</li> -->
 		    </ul>
 		  </div>
 		</nav>
 
 		<header class="container-fluid">
 			<div class="row">
-				<div class=" offset-md-2 col-md-5 info mobile-hide">
-					<span class="titulo">IX Bragantec</span><br>
-					<br>
-					<span class="subtitulo">FEIRA DE CIÊNCIA E TECNOLOGIA DP IFSP 2019</span>
-					<br>
-				</div>
 				<div class=" setaLaranja col-md-3 col-xs-3 ">
 					Podem participar alunos do 8° e 9° ano e alunos do médio/técnico
 					até 21 anos!

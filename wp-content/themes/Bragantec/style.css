@@ -72,23 +72,12 @@ header div div{
   border: solid  rgba(255, 255, 255, 0.2) 2px;
   padding-bottom: 10px;
 }
-.titulo{
-  font-size: 65px;
-  color: rgb(197,26,27);
-  font-family: myriadBold;
-  text-shadow: gray 0.07em 0.08em 0.2em;
-}
+
 .subtituloDia{
   font-size: 27px;
   color: rgb(197,26,27);
   font-family: myriadBold;
   padding-top: 5px;
-}
-.subtitulo{
-  font-size: 25px;
-  color:  black;
-  font-family: myriadBold;
-  text-shadow: gray 0.07em 0.08em 0.2em;
 }
 
 /* setas no header  */
@@ -158,9 +147,7 @@ header div div{
 #queBragantec{
   margin-bottom: 50px;
 }
-#queBragantec p {
-  margin-left: 50px;
-}
+
 /* footer */
 footer{
   padding-right: 0 !important;
@@ -182,33 +169,24 @@ footer div div{
 .tituloMobile{
   display: none;
 }
-.img{
-  max-width:80px;
-}
 .contato{
-  padding-top:30px;
+  display: flex;
 }
-.braga{
-  padding-top:40px;
+.contato div {
+  flex:1;
 }
-.contatoDivBraga{
-  padding-left:60px;
-  padding-top:5px;
-  background-image:url(img/);
-  background-repeat:no-repeat;
+.link{
+  margin-top: 10px;
 }
-.contatoDivIf{
-  padding-left:70px;
-  background-image:url(img/if.jpg);
-  background-repeat:no-repeat;
-}
-.contatoIfMeninas{
-  padding-left:120px;
-  background-image:url(img/ifMeninasLogo.png);
-  background-repeat:no-repeat;
-  text-align: center;
+a{
+  text-decoration: none !important;
+  color: white !important;
 }
 
+
+.meninasText{
+  margin-top: 10px;
+}
 .desenvolvedoras{
   width:50%;
 }
@@ -218,10 +196,6 @@ footer div div{
 }
 .desenvolvedoras p {
   padding-right:0px;
-}
-.contatoDesenv, .apoios{
-    border-bottom: lightgray solid 0.5px;
-    padding-left: 45px;
 }
 
 .perfil:hover img, .desenvolvedoras:hover img{
@@ -240,7 +214,16 @@ table td{
 table tr{
   text-align: left;
 }
-
+/* Desktop */
+@media (min-width: 500px){
+  .footerPadding{
+    padding-left: 150px;
+  }
+  #queBragantec p {
+    margin-left: 50px;
+  }
+}
+/* mobile */
 @media (max-width: 500px){
   .tituloFooter{
     display: none;
