@@ -27,6 +27,7 @@
 body{
   font-family: myriadRegular;
   min-width: 340px;
+  scroll-behavior: smooth;
 }
 h1, h2{
   color: rgb(197,26,27) !important;
@@ -85,7 +86,7 @@ header div div{
 .setaLaranja{
   background-image: url("img/setaLaranja.png");
   padding: 9px 0px 9px 30px;
-  top:135px;
+  top:210px;
   max-width: 370px;
   font-size: 18px;
 }
@@ -98,7 +99,7 @@ header div div{
 .setaVermelha{
   background-image: url("img/setaVermelha.png");
   padding: 10px 0px 10px 40px;
-  top:225px;
+  top:305px;
   font-size: 18px;
   max-width: 320px;
 }
@@ -196,6 +197,9 @@ a{
 }
 .desenvolvedoras p {
   padding-right:0px;
+}
+.desenvNome{
+  color: black !important;
 }
 
 .perfil:hover img, .desenvolvedoras:hover img{

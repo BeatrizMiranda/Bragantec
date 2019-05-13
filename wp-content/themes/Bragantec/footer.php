@@ -10,7 +10,7 @@
           <br>
           <div class="col-md-12 text-md-right">
             <a href="https://bra.ifsp.edu.br/" target="_blank">
-              <img src="<?php echo get_stylesheet_directory_uri()?>/img/IF_logo.png" alt="Site do IFSP - Bragança Paulista - SP" width="100">
+              <img src="<?php echo get_stylesheet_directory_uri()?>/img/logoIfHori.png" alt="Site do IFSP - Bragança Paulista - SP" width="200">
             </a>
           </div>
         </div>
@@ -69,7 +69,9 @@
           <div class="col-md-6 col-xs-6 desenvolvedoras text-right">
             <a href="https://www.linkedin.com/in/beatriz-miranda-ferreira/" target="_blank">
               <div class="col-md-12 perfil" >
-                  <img src="<?php echo get_stylesheet_directory_uri()?>/img/beatriz.jpg" alt="Beatriz Miranda" data-toggle="tooltip" data-placement="bottom" title="Beatriz Miranda - Programadora">
+                  <img src="<?php echo get_stylesheet_directory_uri()?>/img/beatriz.jpg" alt="Beatriz Miranda">
+                  <br>
+                  <p class="desenvNome">Beatriz Miranda <br> Programadora</p>
               </div>
             </a>
           </div>
@@ -77,7 +79,9 @@
           <div class="col-md-6  col-xs-6 desenvolvedoras text-left">
             <a href="https://www.linkedin.com/in/laura-a-de-almeida-chaile/" target="_blank">
               <div class="col-md-12 perfil">
-                  <img src="<?php echo get_stylesheet_directory_uri()?>/img/laura.jpg" alt="Laura Chaile"   data-toggle="tooltip" data-placement="bottom" title="Laura Chaile - Designer">
+                  <img src="<?php echo get_stylesheet_directory_uri()?>/img/laura.jpg" alt="Laura Chaile" >
+                  <br>
+                  <p class="desenvNome">Laura Chaile <br><span style="text-center"> Designer</span></p>
               </div>
             </a>
           </div>
