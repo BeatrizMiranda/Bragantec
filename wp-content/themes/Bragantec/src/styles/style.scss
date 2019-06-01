@@ -110,13 +110,13 @@ div div.bolinha{
 }
 .bolinha{
     &.i:before{
-        content: "1";
+        content: "1.";
     }
     &.d:before{
-        content: "2";
+        content: "2.";
     }
     &.a:before{
-        content: "3";
+        content: "3.";
     }
 }
 
@@ -163,31 +163,32 @@ div.flex a{
     padding-top: 40px;
 }
 @media only screen and (min-width: 500px) {
-    .posicao, .posicao2, .posicao3{
+    .posicao, .posicao2, .posicao3, .posicaoAnt, .posicaoAnt2, .posicaoAnt3{
         position: absolute;
         border: solid #bebebe 3px;
         max-width:250px;
     }
-    .posicao{
+    .posicao, .posicaoAnt{
         left: 40px;
         z-index: 3;
     }
-    .posicao2{
+    .posicao2, .posicaoAnt2{
         left: 60px;
         top: 15px;
         z-index: 2;
     }
-    .posicao3{
+    .posicao3, .posicaoAnt3{
         top: 30px;
         left: 77px;
         z-index: 1;
     }
-    .mudaImg{
+    .mudaImg, .mudaImgAnt{
         position: absolute;
-        right: 50px;
+        right: 150px;
         top: 80px;
     }
 }
+
 button.galeria{
     margin-top: 230px;
     margin-left:100px;

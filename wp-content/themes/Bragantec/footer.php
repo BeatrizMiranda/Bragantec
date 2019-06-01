@@ -96,13 +96,14 @@
          $('.chegarDiv').last().height($('.chegarDiv').first().height());
          //Carrossel 
          var phpRequest = "<?php echo get_stylesheet_directory_uri()?>";
-         var imgs = [phpRequest+'/src/img/teste1.jpg', phpRequest+'/src/img/teste2.jpg', phpRequest+'/src/img/teste3.jpg'];
-         var i=0;
+         var imgs = [phpRequest+'/src/img/brag/teste1.jpg', phpRequest+'/src/img/brag/teste2.jpg', phpRequest+'/src/img/brag/teste3.jpg'];
+         var imgsAnt = [phpRequest+'/src/img/ant/teste1.jpg', phpRequest+'/src/img/ant/teste2.jpg', phpRequest+'/src/img/ant/teste3.jpg'];
+         var i=1;
          
-         $('.posicao').attr('src', imgs[i]);
+         $('.posicao').attr('src', imgs[i-1]);
          $('.posicao2').attr('src', imgs[1]);
          $('.posicao3').attr('src', imgs[2]);
-         i++;
+
          $('.mudaImg').click(function(){
 
             $('.posicao3').attr('src', $('.posicao2').attr('src'));
@@ -116,6 +117,26 @@
          });
          $('.carroselImage img').click(function(){
             $('.mudaImg').click();
+         });
+
+
+         $('.posicaoAnt').attr('src', imgsAnt[i-1]);
+         $('.posicaoAnt2').attr('src', imgsAnt[1]);
+         $('.posicaoAnt3').attr('src', imgsAnt[2]);
+
+         $('.mudaImgAnt').click(function(){
+
+            $('.posicaoAnt3').attr('src', $('.posicaoAnt2').attr('src'));
+            $('.posicaoAnt2').attr('src', $('.posicaoAnt').attr('src'));
+            $('.posicaoAnt').attr('src', imgsAnt[i]);
+            if(i==imgsAnt.length-1){
+                  i=0;
+            }else{
+                  i++;
+            }
+         });
+         $('.carroselImage img').click(function(){
+            $('.mudaImgAnt').click();
          });
       </script>
 

@@ -160,26 +160,26 @@ nav .navbar-nav > li:hover {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
   }
-  .posicao, .posicao2, .posicao3 {
+  .posicao, .posicao2, .posicao3, .posicaoAnt, .posicaoAnt2, .posicaoAnt3 {
     max-width: 220px;
     position: absolute;
     border: solid #bebebe 3px;
   }
-  .posicao {
+  .posicao, .posicaoAnt {
     left: 5px;
     z-index: 3;
   }
-  .posicao2 {
+  .posicao2, .posicaoAnt2 {
     left: 25px;
     top: 15px;
     z-index: 2;
   }
-  .posicao3 {
+  .posicao3, .posicaoAnt3 {
     top: 30px;
     left: 44px;
     z-index: 1;
   }
-  .mudaImg {
+  .mudaImg, .mudaImgAnt {
     position: absolute;
     right: 5px;
     top: 80px;
@@ -323,15 +323,15 @@ div div.bolinha {
 }
 
 .bolinha.i:before {
-  content: "1";
+  content: "1.";
 }
 
 .bolinha.d:before {
-  content: "2";
+  content: "2.";
 }
 
 .bolinha.a:before {
-  content: "3";
+  content: "3.";
 }
 
 #oquebrag {
@@ -393,28 +393,28 @@ div.flex a {
 }
 
 @media only screen and (min-width: 500px) {
-  .posicao, .posicao2, .posicao3 {
+  .posicao, .posicao2, .posicao3, .posicaoAnt, .posicaoAnt2, .posicaoAnt3 {
     position: absolute;
     border: solid #bebebe 3px;
     max-width: 250px;
   }
-  .posicao {
+  .posicao, .posicaoAnt {
     left: 40px;
     z-index: 3;
   }
-  .posicao2 {
+  .posicao2, .posicaoAnt2 {
     left: 60px;
     top: 15px;
     z-index: 2;
   }
-  .posicao3 {
+  .posicao3, .posicaoAnt3 {
     top: 30px;
     left: 77px;
     z-index: 1;
   }
-  .mudaImg {
+  .mudaImg, .mudaImgAnt {
     position: absolute;
-    right: 50px;
+    right: 150px;
     top: 80px;
   }
 }

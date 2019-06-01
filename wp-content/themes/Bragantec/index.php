@@ -109,8 +109,8 @@
         </article>
 
         <article>
-            <article>
-                <div id="inscricao" class="container-fluid conteudo row">
+            <article id="inscricao">
+                <div  class="container-fluid conteudo row">
                     <div class="col-md-6">
                         <div style="float:left" class="divBolinha"><div class="bolinha i"></div></div>
                     <?php
@@ -174,8 +174,8 @@
                     </div>
                 </div>
             </article>
-            <article>
-                <div id="desenvolvimento" class="container-fluid conteudo row">
+            <article id="desenvolvimento">
+                <div  class="container-fluid conteudo row">
                     <div class="col-md-6 partConteudo">
                         <div style="float:left" class="divBolinha"><div class="bolinha d"></div></div>
 
@@ -238,8 +238,8 @@
                     </div>  
                 </div>
             </article>
-            <article>
-                <div id="apresentacao" class="container-fluid conteudo row">
+            <article id="apresentacao" >
+                <div class="container-fluid conteudo row">
                 <h1>Meu projeto foi aceito, e agora?</h1>
                     <div class="col-md-6 partConteudo">
                         
@@ -341,6 +341,7 @@
         </div>
     </section>
     <article id="comoChegar" class="container-fluid">
+        <h1>Como Chegar </h1>
         <div class="col-md-6 col-xs-12 chegarDiv">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.042287654054!2d-46.560868685602685!3d-22.948669684990517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cec9f08275ff8f%3A0xb22403ac6f421f0c!2sIFSP+-+Campus+Bragan%C3%A7a+Paulista+(novo+pr%C3%A9dio)!5e0!3m2!1spt-BR!2sbr!4v1559392820610!5m2!1spt-BR!2sbr" style="width:400px; height:300px" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
@@ -386,16 +387,15 @@
                     <?php endwhile; endif;?>
             </div>
             <div class="col-md-6 text-center">
-                <div><img class="posicao" src="<?php echo get_stylesheet_directory_uri();?>/src/img/seta.png" alt=""></div>
-                <div><img class="posicao2" src="<?php echo get_stylesheet_directory_uri();?>/src/img/seta.png" alt=""></div>
-                <div><img class="posicao3" src="<?php echo get_stylesheet_directory_uri();?>/src/img/seta.png" alt=""></div>
+                <div><img class="posicao" src="" alt=""></div>
+                <div><img class="posicao2" src="" alt=""></div>
+                <div><img class="posicao3" src="" alt=""></div>
                 <div><img class="mudaImg" src="<?php echo get_stylesheet_directory_uri();?>/src/img/seta.png" width="40"></div>
             </div>
             <div>
                 <button type="text" class="btn galeria ">
                     <a class="galeria">Ir para a galeria de fotos</a>
                 </button>
-                
             </div>
         </div>
     </article>
@@ -418,7 +418,15 @@
                 </div>
             </div>
             <div class="col-md-6 text-center">
-
+                <div><img class="posicaoAnt" src="" alt=""></div>
+                <div><img class="posicaoAnt2" src="" alt=""></div>
+                <div><img class="posicaoAnt3" src="" alt=""></div>
+                <div><img class="mudaImgAnt" src="<?php echo get_stylesheet_directory_uri();?>/src/img/seta.png" width="40"></div>
+            </div>
+            <div>
+                <button type="text" class="btn galeria ">
+                    <a class="galeria">Ir para a galeria de fotos</a>
+                </button>
             </div>
             <?php endwhile; endif;?>
         </div>
