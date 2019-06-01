@@ -1,0 +1,52 @@
+@media only screen and (max-width: 500px) {
+    .mobile-hide{ display: none !important; }
+    .setaPart{
+        transform: rotate(90deg); 
+    }
+    .posicao, .posicao2, .posicao3{
+        max-width:220px;
+        position: absolute;
+        border: solid #bebebe 3px;
+    }
+    .posicao{
+        left: 5px;
+        z-index: 3;
+    }
+
+    .posicao2{
+        left: 25px;
+        top: 15px;
+        z-index: 2;
+    }
+    .posicao3{
+        top: 30px;
+        left: 44px;
+        z-index: 1;
+    }
+    .mudaImg{
+        position: absolute;
+        right: 5px;
+        top: 80px;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+    iframe{
+        width: 250px !important;
+        height: 250px !important;
+    }
+    .chegarDiv{
+        padding: 20px !important;
+        &:first-of-type{
+            width: 100% !important;
+            margin-bottom: 40px;
+            margin-right: 0 !important;
+        }
+    }
+}
+@media only screen and (max-width: 1000px) {
+   .tabletHide{
+       display: none;
+   }
+}
