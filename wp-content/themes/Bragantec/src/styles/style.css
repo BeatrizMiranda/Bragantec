@@ -153,6 +153,9 @@ nav .navbar-nav > li:hover {
 }
 
 @media only screen and (max-width: 500px) {
+  .parallax {
+    background-image: url("../img/capa_siteMobile.jpg");
+  }
   .mobile-hide {
     display: none !important;
   }
@@ -238,12 +241,24 @@ header {
   padding: 9px 30px;
 }
 
+@media only screen and (max-width: 500px) {
+  .setaLaranja {
+    top: 150px;
+  }
+}
+
 .setaVermelha {
   background-image: url("../img/setaVermelha.png");
   right: 0;
   top: 160px;
   padding: 10px 30px;
   text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .setaVermelha {
+    top: 230px;
+  }
 }
 
 .subtituloDia {
@@ -454,5 +469,21 @@ footer .footer-brand {
 
 footer .footer-brand h1, footer .footer-brand h2 {
   color: white;
+}
+
+div.arrowUp {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  width: 35px;
+  height: 35px;
+  background-color: #c51a1b;
+  border-radius: 50%;
+  background-image: url("../img/arrowUp.svg");
+  background-position-x: 1px;
+  background-position-y: 2px;
+  -webkit-box-shadow: #bebebe 0.2em 0.2em 0.3em;
+          box-shadow: #bebebe 0.2em 0.2em 0.3em;
+  z-index: 20;
 }
 /*# sourceMappingURL=style.css.map */

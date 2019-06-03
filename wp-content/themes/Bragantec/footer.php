@@ -1,3 +1,4 @@
+<a href="#oquebrag"><div class="arrowUp" data-toggle="tooltip" data-placement="top" title="Topo"></div></a>
 <footer class="container-fluid">
          <div class="col-xs-12 footer-brand">
             <h1 class="text-center">Bragantec</h1>
@@ -93,7 +94,7 @@
       <script src="<?php echo get_stylesheet_directory_uri();?>/src/js/js.js"></script>
       
       <script type="text/javascript">
-         $('.chegarDiv').last().height($('.chegarDiv').first().height());
+         
          //Carrossel 
          var phpRequest = "<?php echo get_stylesheet_directory_uri()?>";
          var imgs = [phpRequest+'/src/img/brag/teste1.jpg', phpRequest+'/src/img/brag/teste2.jpg', phpRequest+'/src/img/brag/teste3.jpg'];

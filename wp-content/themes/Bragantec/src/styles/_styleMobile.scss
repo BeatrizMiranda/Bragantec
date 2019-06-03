@@ -1,4 +1,7 @@
 @media only screen and (max-width: 500px) {
+    .parallax{
+        background-image: url("../img/capa_siteMobile.jpg");
+    }
     .mobile-hide{ display: none !important; }
     .setaPart{
         transform: rotate(90deg); 

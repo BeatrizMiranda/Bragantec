@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.nav a[href^="#"]').on('click', function(e) {
+    $('a[href^="#"]').on('click', function(e) {
         e.preventDefault();
         var id = $(this).attr('href'),
                 targetOffset = $(id).offset().top;
@@ -8,7 +8,9 @@ $(document).ready(function(){
             scrollTop: targetOffset - 100
         }, 100);
     });
-    
+
+    $('.chegarDiv').last().height($('.chegarDiv').first().height());
+
     $('#formulario').submit(function(){
         alert("Email enviado com sucesso, em breve receberá noticias da gente :D");
     });

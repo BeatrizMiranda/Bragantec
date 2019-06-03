@@ -1,6 +1,6 @@
 <?php get_header() ?>
 
-<section class="container"  id="emailSection">
+<!-- <section class="container"  id="emailSection">
 
     <div class="row atualizacoes text-center">
 
@@ -18,13 +18,13 @@
       </form>
     </div>
 
-</section>
+</section> -->
 
 
 <main class="container">
     <article id="oquebrag" class="container-fluid">
         <div class="row conteudo">
-            <div class="col-md-6">
+            
                 <?php
                     $args = array(
                         'category_name' => 'queBragantec',
@@ -35,14 +35,15 @@
                     if (have_posts()):
                         while ($custom_query->have_posts()): $custom_query->the_post();
                 ?>
-                <h1><?php the_title() ?></h1>
+            <h1 class="col-md-12"><?php the_title() ?></h1>
+            <div class="col-md-6 msmTamanho">
                 <div class="text">
                     <?php the_content();?>
                 </div>
                 
             </div>
-            <div class="col-md-6 text-center">
-                <img src="<?php echo get_the_post_thumbnail_url() ?>" alt="<?php echo get_the_post_thumbnail_caption()?>"/>
+            <div class="col-md-6 text-center msmTamanho">
+                <img style="margin-top: 30px;" src="<?php echo get_the_post_thumbnail_url() ?>" alt="<?php echo get_the_post_thumbnail_caption()?>"/>
                 <!-- <img src="<?php echo get_stylesheet_directory_uri();?>/src/img/teste.jpg" alt="imagens para representar a bragantec, pessoas apresentando."> -->
             </div>
             <?php endwhile; endif ?>
@@ -358,7 +359,7 @@
             ?>
             <h1><?php the_title() ?></h1>
 
-            <div class="text">
+            <div class="text" style="margin-top: 10px;">
                 <?php the_content(); ?>
             </div>
 
