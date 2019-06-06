@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Myriad';
+    src: url('MYRIADPRO-REGULAR.woff');
+}
+
+@font-face {
+    font-family: 'Myriad_Bold';
+    src: url('MYRIADPRO-REGULAR.woff');
+    font-weight: bold;
+}
+

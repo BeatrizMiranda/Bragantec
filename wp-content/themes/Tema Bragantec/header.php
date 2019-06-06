@@ -40,12 +40,12 @@
             <div>
                <div class="collapse navbar-collapse" id="myNavbar">
                   <ul class="nav navbar-nav">
-                     <li><a href="#oquebrag">O que é Bragantec aaaaaaaaaaa</a></li>
-                     <li><a href="#participar">Como Participar</a></li>
-                     <li><a href="#comoChegar">Como Chegar</a></li>
-                     <li><a href="#bragantequinha">Bragantequinha</a></li>
-                     <li><a href="#anteriores">Edições Anteriores</a></li>
-                     <li><a href="#apoio">Como Apoiar</a></li>
+                     <li><a href="<?php echo is_home() ?  "#oquebrag" :  get_home_url()."#oquebrag";?>">O que é Bragantec</a></li>
+                     <li><a href="<?php echo is_home() ? "#participar" : get_home_url()."#participar";?>">Como Participar</a></li>
+                     <li><a href="<?php echo is_home() ? "#comoChegar" : get_home_url()."#comoChegar";?>">Como Chegar</a></li>
+                     <li><a href="<?php echo is_home() ? "#bragantequinha" : get_home_url()."#bragantequinha";?>">Bragantequinha</a></li>
+                     <li><a href="<?php echo is_home() ? "#anteriores" : get_home_url()."#anteriores";?>">Edições Anteriores</a></li>
+                     <li><a href="<?php echo is_home() ? "#apoio" : get_home_url()."#apoio";?>">Como Apoiar</a></li>
                   </ul>
                </div>
             </div>

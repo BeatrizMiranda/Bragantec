@@ -1,0 +1,55 @@
+@media only screen and (max-width: 500px) {
+    .parallax{
+        background-image: url("../img/capa_siteMobile.jpg");
+    }
+    .mobile-hide{ display: none !important; }
+    .setaPart{
+        transform: rotate(90deg); 
+    }
+    .posicao, .posicao2, .posicao3, .posicaoAnt, .posicaoAnt2, .posicaoAnt3{
+        max-width:220px;
+        position: absolute;
+        border: solid #bebebe 3px;
+    }
+    .posicao, .posicaoAnt{
+        left: 5px;
+        z-index: 3;
+    }
+
+    .posicao2, .posicaoAnt2{
+        left: 25px;
+        top: 15px;
+        z-index: 2;
+    }
+    .posicao3, .posicaoAnt3{
+        top: 30px;
+        left: 44px;
+        z-index: 1;
+    }
+    .mudaImg, .mudaImgAnt{
+        position: absolute;
+        right: 5px;
+        top: 80px;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+    iframe{
+        width: 250px !important;
+        height: 250px !important;
+    }
+    .chegarDiv{
+        padding: 20px !important;
+        &:first-of-type{
+            width: 100% !important;
+            margin-bottom: 40px;
+            margin-right: 0 !important;
+        }
+    }
+}
+@media only screen and (max-width: 1000px) {
+   .tabletHide{
+       display: none;
+   }
+}

@@ -1,0 +1,239 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 1.6;
+}
+
+/* Mudar o estil quando seleciona um texto */
+::-moz-selection {
+  background: #c51a1b;
+  color: white;
+}
+::selection {
+  background: #c51a1b;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+  min-width: 325px;
+}
+
+body {
+  position: relative;
+  font-family: Myriad;
+  counter-reset: bolinhaCont;
+  font-size: 16px;
+}
+
+h1, h2 {
+  font-size: 25px;
+  color: #c51a1b;
+  font-weight: bold;
+  margin-top: 4px;
+  vertical-align: middle;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+article {
+  padding: 30px 0;
+}
+
+article p {
+  margin-top: 30px;
+}
+
+a:link {
+  color: #c51a1b;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #c51a1b;
+}
+
+/* Estilos do Menu */
+nav {
+  background-color: white;
+  font-weight: bold;
+}
+
+nav a {
+  color: #c51a1b !important;
+}
+
+nav .navbar-brand {
+  color: #c51a1b !important;
+}
+
+nav #myNavbar {
+  overflow: hidden;
+}
+
+.text {
+  text-indent: 30px;
+  text-transform: capitalize;
+}
+
+.border-bottom {
+  border-bottom: solid lightgray 0.5px;
+}
+
+.pd {
+  padding: 10px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 500px) {
+  .parallax {
+    background-image: url("../img/capa_siteTablet.jpg");
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .parallax {
+    background-image: url("../img/capa_site.jpg");
+  }
+  .menu {
+    float: right !important;
+  }
+  #myNavbar {
+    float: right !important;
+  }
+  .border-left {
+    border-left: solid lightgray 0.5px;
+  }
+  .border-right {
+    border-right: solid lightgray 0.5px;
+  }
+}
+
+/* header */
+header {
+  margin-top: 50px;
+}
+
+.parallax {
+  min-height: 330px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: 0px 45px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.parallax div {
+  position: absolute;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.setaLaranja {
+  background-image: url("../img/setaLaranja.png");
+  right: 0;
+  top: 80px;
+  padding: 9px 30px;
+}
+
+.setaVermelha {
+  background-image: url("../img/setaVermelha.png");
+  right: 0;
+  top: 150px;
+  padding: 10px 30px;
+  text-align: center;
+}
+
+.subtituloDia {
+  font-size: 25px;
+}
+
+/* Conteudo da página */
+.divBolinha {
+  border-radius: 50%;
+  border: solid #c51a1b 2px;
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-right: 15px;
+}
+
+div div.bolinha {
+  margin: 3px;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  text-align: center;
+  background-color: #c51a1b;
+  color: white;
+  border-radius: 50%;
+}
+
+.bolinha::before {
+  counter-increment: bolinhaCont;
+  content: counter(bolinhaCont) ". ";
+}
+
+#oquebrag {
+  margin-top: 50px;
+}
+
+#Inscrição {
+  counter-reset: bolinhaCont;
+}
+
+.setaPart {
+  float: right;
+}
+
+.seta {
+  -webkit-align-self: center;
+  /* Safari 7.0+ */
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.partConteudo {
+  padding-top: 40px;
+}
+
+/* Fotter */
+footer {
+  padding: 0 !important;
+}
+
+footer .footer-brand {
+  background-color: #c51a1b;
+  min-height: 10px;
+}
+
+footer .footer-brand h1, footer .footer-brand h2 {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

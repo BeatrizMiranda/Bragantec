@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+/* Mudar o estil quando seleciona um texto */
+::selection {
+    background: $vermelho;
+    color: #fff;
+} 
+img {
+    max-width: 100%;
+    height: auto;
+}
+html{
+    scroll-behavior: smooth;
+    min-width: 325px;
+}
+body {
+    position: relative;
+    font-family: Myriad;
+    font-size: $fontTexto;
+    overflow: hidden;
+}
+
+h1{
+    font-size: $fontTitulo;
+    color: $vermelho;
+    font-weight: bold;
+    margin-top:4px;
+    vertical-align: middle;
+}
+
+h2{
+    @extend h1;
+    font-size: $fontTitulo2;
+}
+h3{
+    font-size: $fontTexto;
+}
+
+
+article{
+    padding: 40px 0;
+    p{
+        margin-top: 30px;
+    }
+}
+
+a{
+    &:link{
+    color: $vermelho;
+    font-size: 16px;
+    cursor: pointer;
+    }
+    &:hover{
+        text-decoration: underline;
+    }
+    &:visited{
+        color:$vermelho;
+    }
+}
+
+/* Estilos do Menu */
+nav{
+    background-color: white;
+    font-weight: bold;
+    a{
+        color: $vermelho !important;
+    }
+    .navbar-header{
+        margin-top: 10px;
+    }
+    .navbar-brand{
+        color:$vermelho !important;
+    }
+    #myNavbar{
+        overflow:hidden;
+    }
+    .navbar-nav > li:hover{
+        background-color: #e7e7e7;
+
+    }
+}
+
+.text{
+    padding: 0 15px;
+    p{
+        text-indent: 30px;
+        text-align: justify;
+        &::first-letter{
+            text-transform: uppercase;
+        }
+    }
+}
+
+.border-bottom{
+    border-bottom: solid lightgray 0.5px;
+}
+
+.pd{
+    padding: 10px;
+}
+.flex{
+    display: flex;
+    width: 100%;
+}
+
+

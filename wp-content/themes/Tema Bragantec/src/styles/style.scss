@@ -1,0 +1,244 @@
+@import "./variables";
+@import "./styleGeral";
+@import "./styleLarge";
+@import "./styleMobile";
+
+/* header */
+header{
+    margin-top: 50px;
+}
+.parallax {
+    min-height: 330px; 
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 0px 45px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    div{
+        position: absolute;
+        color: white;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.setaLaranja{
+    background-image: url("../img/setaLaranja.png");
+    right: 0;
+    top: 80px;
+    @media only screen and (max-width: 500px) {
+        top: 150px;     
+    }
+    padding: 9px 30px;
+}
+
+.setaVermelha{
+    background-image: url("../img/setaVermelha.png");
+    right: 0;
+    top: 160px;
+    @media only screen and (max-width: 500px) {
+        top: 230px;     
+    }
+    padding: 10px 30px;    
+    text-align: center;
+}
+
+.subtituloDia{
+    font-size: $fontTitulo;
+    margin-top: 20px;
+}
+
+.setaMais{
+    transform: rotate(90deg);
+}
+
+/* Conteudo da página */
+.divBolinha{
+    border-radius: 50%;
+    border: solid $vermelho 2px;
+    width: 40px;
+    height:40px; 
+    float: left;
+    margin-right: 15px;
+}
+
+// Formulario 
+
+.atualizacoes{
+    padding-top: 50px;
+    margin-right: -15px;
+    margin-bottom: 20px;
+    #formulario{
+        display: flex;
+        justify-content: center;
+
+    }
+}
+.divInput{
+    padding-right:0px;
+  
+    .inputEmail{
+        padding-left:60px;
+        padding-top:5px;
+        height:42px;
+        background-image:url(../img/email.png);
+        background-repeat:no-repeat;
+    }
+}
+
+
+
+.botaoSubmit{
+    padding-left: 0px;
+    #botaoFormulario{
+        right: 15px;
+        position: absolute;
+        background-color: rgb(197,26,27);
+        border:0;
+        margin-top:2px;
+        width:150px;
+        &:hover{
+            box-shadow: gray 0.1em 0.2em 0.2em; 
+        }
+    }
+}
+
+div div.bolinha{
+    margin:3px;
+    width:30px;
+    height:30px;
+    padding: 2px;
+    text-align: center; 
+    background-color: $vermelho;
+    color:white;
+    border-radius: 50%;
+}
+.bolinha{
+    &.i:before{
+        content: "1.";
+    }
+    &.d:before{
+        content: "2.";
+    }
+    &.a:before{
+        content: "3.";
+    }
+}
+
+#oquebrag{
+    margin-top: 50px;
+}
+
+#comoparticipar{
+    padding-right:0px;
+}
+.displayFlex{
+    display:flex;
+    flex-direction: column;
+    &>div{
+        padding: 15px;
+    }
+    #bolinhaRegra .bolinha:before{
+        content: "*";
+    }
+}
+#indicesParticipar{
+    h2{
+        text-align: left;
+        // margin-top: 8px;
+    }
+    p{
+        margin:0;
+        text-align: left;
+        margin-left: 55px;
+    }
+}
+div.flex a{
+    flex:1;
+}
+
+.setaPart{
+    float:right;
+}
+.seta{
+    -webkit-align-self: center; /* Safari 7.0+ */
+    align-self: center;
+}
+.partConteudo{
+    padding-top: 40px;
+}
+@media only screen and (min-width: 500px) {
+    .posicao, .posicao2, .posicao3, .posicaoAnt, .posicaoAnt2, .posicaoAnt3{
+        position: absolute;
+        border: solid #bebebe 3px;
+        max-width:250px;
+    }
+    .posicao, .posicaoAnt{
+        left: 40px;
+        z-index: 3;
+    }
+    .posicao2, .posicaoAnt2{
+        left: 60px;
+        top: 15px;
+        z-index: 2;
+    }
+    .posicao3, .posicaoAnt3{
+        top: 30px;
+        left: 77px;
+        z-index: 1;
+    }
+    .mudaImg, .mudaImgAnt{
+        position: absolute;
+        right: 150px;
+        top: 80px;
+    }
+}
+
+button.galeria{
+    margin-top: 230px;
+    margin-left:100px;
+    background-color: $vermelho;
+    color:white;
+}
+a.galeria{
+    color:white;
+}
+.chegarDiv{
+    border:solid $vermelho 1px;
+    border-radius: 3px;
+    padding: 40px;
+    &:first-of-type{
+        text-align:center;
+        width: 49%;
+        margin-right: 1%;
+    }
+}
+/* Fotter */
+footer{
+    padding:0 !important;
+
+    .footer-brand{
+        background-color: $vermelho;
+        min-height: 10px;
+
+        h1{
+            color:white;
+        }
+    }
+}
+div.arrowUp{
+    position: fixed;
+    bottom:5px;
+    right:5px;
+    width: 35px;
+    height: 35px;
+    background-color: $vermelho;
+    border-radius: 50%;
+    background-image: url('../img/arrowUp.svg');
+    background-position-x: 1px;
+    background-position-y: 2px;
+    box-shadow: #bebebe 0.2em 0.2em 0.3em;
+    z-index: 20;
+}
