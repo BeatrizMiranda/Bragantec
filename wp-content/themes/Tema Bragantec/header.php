@@ -46,6 +46,7 @@
                      <li><a href="<?php echo is_home() ? "#bragantequinha" : get_home_url()."#bragantequinha";?>">Bragantequinha</a></li>
                      <li><a href="<?php echo is_home() ? "#anteriores" : get_home_url()."#anteriores";?>">Edições Anteriores</a></li>
                      <li><a href="<?php echo is_home() ? "#apoio" : get_home_url()."#apoio";?>">Como Apoiar</a></li>
+                     <li><a href="<?php echo get_site_url();?>/galeria">Galeria</a></li>
                   </ul>
                </div>
             </div>

@@ -9,6 +9,8 @@ $(document).ready(function(){
         }, 100);
     });
 
+    $('body.galeria .navbar li:nth-of-type(7) a').css('backgroundColor','#e7e7e7');
+
     $('.chegarDiv').last().height($('.chegarDiv').first().height());
 
     $('#formulario').submit(function(){
@@ -23,4 +25,5 @@ $(document).ready(function(){
 
     $('#divseta').css('height', altura);
 
+    
 });

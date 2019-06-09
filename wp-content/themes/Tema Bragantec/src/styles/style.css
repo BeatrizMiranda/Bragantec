@@ -124,6 +124,10 @@ nav .navbar-nav > li:hover {
   width: 100%;
 }
 
+body.galeria navbar li:nth-of-type(7) {
+  background-color: #e7e7e7;
+}
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 500px) {
   .parallax {
