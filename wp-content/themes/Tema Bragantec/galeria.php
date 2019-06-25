@@ -42,7 +42,7 @@
             $img = $img[count($img)-1];
         ?>
           <div class="pics animation all 1">
-            <img src="<?php echo get_stylesheet_directory_uri();?>/src/img/brag/<?php echo $img; ?>" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri();?>/src/img/brag/<?php echo $img; ?>" alt="<?php echo $img; ?>">
           </div>
         <?php }  ?> 
 
@@ -58,7 +58,7 @@
             $imgA = $imgA[count($imgA)-1];
         ?>
           <div class="pics animation all 2">
-            <img src="<?php echo get_stylesheet_directory_uri();?>/src/img/ant/<?php echo $imgA; ?>" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri();?>/src/img/ant/<?php echo $imgA; ?>" alt="<?php echo $imgA;?>">
           </div>
         <?php }  ?>
 

@@ -395,7 +395,7 @@
             </div>
             <div>
                 <button type="text" class="btn galeria ">
-                    <a class="galeria">Ir para a galeria de fotos</a>
+                    <a href="<?php echo get_site_url();?>/galeria" class="galeria">Ir para a galeria de fotos</a>
                 </button>
             </div>
         </div>
@@ -426,7 +426,7 @@
             </div>
             <div>
                 <button type="text" class="btn galeria ">
-                    <a class="galeria">Ir para a galeria de fotos</a>
+                    <a href="<?php echo get_site_url();?>/galeria"  class="galeria">Ir para a galeria de fotos</a>
                 </button>
             </div>
             <?php endwhile; endif;?>

@@ -23,6 +23,9 @@
       <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri();?>/src/font/font.css">
       <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri();?>/src/styles/style.css">
 
+      <!-- Fancybox -->
+	   <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri();?>/src/fancybox/dist/jquery.fancybox.min.css">
+
    </head>
    <body data-spy="scroll" data-target=".navbar" data-offset="80">
 

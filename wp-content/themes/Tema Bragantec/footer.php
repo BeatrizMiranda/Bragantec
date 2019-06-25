@@ -91,6 +91,10 @@
       <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"></script>
       <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" ></script>
 
+      <!-- Fancybox -->
+
+      <script src="<?php echo get_stylesheet_directory_uri();?>/fancybox/dist/jquery.fancybox.min.js"></script>
+
       <script src="<?php echo get_stylesheet_directory_uri();?>/src/js/js.js"></script>
       
       <script type="text/javascript">
