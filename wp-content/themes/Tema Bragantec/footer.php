@@ -1,4 +1,4 @@
-<a href="#oquebrag"><div class="arrowUp" data-toggle="tooltip" data-placement="top" title="Topo"></div></a>
+<a href="#parallax"><div class="arrowUp" data-toggle="tooltip" data-placement="top" title="Topo"></div></a>
 <footer class="container-fluid">
          <div class="col-xs-12 footer-brand">
             <h1 class="text-center">Bragantec</h1>
@@ -92,8 +92,8 @@
       <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" ></script>
 
       <!-- Fancybox -->
+      <script src="<?php echo get_stylesheet_directory_uri();?>/src/fancybox/dist/jquery.fancybox.min.js"></script>
 
-      <script src="<?php echo get_stylesheet_directory_uri();?>/fancybox/dist/jquery.fancybox.min.js"></script>
 
       <script src="<?php echo get_stylesheet_directory_uri();?>/src/js/js.js"></script>
       

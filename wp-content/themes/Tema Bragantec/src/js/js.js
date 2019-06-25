@@ -21,9 +21,30 @@ $(document).ready(function(){
         $('[data-toggle="tooltip"]').tooltip()
     });
 
-    var altura = $("#comoparticipar").height();
+    
 
-    $('#divseta').css('height', altura);
+    if($('#divseta').length){
+        var altura = $("#comoparticipar").height();
+        $('#divseta').css('height', altura);
+    }
+
+    if($('.gallery').length){
+        $('.nav.navbar-nav li:last-child').css('backgroundColor', '#e7e7e7');
+    }
+
+    // Galeria
+    $(function() {
+        var selectedClass = "";
+        $(".filter").click(function(){
+           selectedClass = $(this).attr("data-rel");
+           $("#gallery").fadeTo(100, 0.1);
+           $("#gallery div").not("."+selectedClass).fadeOut().removeClass('animation');
+           setTimeout(function() {
+              $("."+selectedClass).fadeIn().addClass('animation');
+              $("#gallery").fadeTo(300, 1);
+           }, 300);
+        });
+    });
 
     
 });

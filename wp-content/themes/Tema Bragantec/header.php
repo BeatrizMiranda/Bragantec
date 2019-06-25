@@ -24,7 +24,7 @@
       <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri();?>/src/styles/style.css">
 
       <!-- Fancybox -->
-	   <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri();?>/src/fancybox/dist/jquery.fancybox.min.css">
+      <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri();?>/src/fancybox/dist/jquery.fancybox.min.css">
 
    </head>
    <body data-spy="scroll" data-target=".navbar" data-offset="80">
@@ -57,7 +57,7 @@
          </div>
       </nav>
 
-      <header class="container-fluid parallax">
+      <header id="parallax" class="container-fluid parallax">
          <div class="setaLaranja">
             <span>Podem participar alunos do 8° e 9° ano <br> e alunos do médio/técnico
             até 21 anos!</span>
