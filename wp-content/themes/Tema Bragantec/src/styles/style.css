@@ -217,6 +217,77 @@ body.galeria navbar li:nth-of-type(7) {
   }
 }
 
+.opcoes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px;
+}
+
+.opcoes button {
+  margin: 5px;
+}
+
+.gallery {
+  -webkit-column-count: 4;
+  column-count: 4;
+  -webkit-column-width: 20%;
+  column-width: 20%;
+  padding: 10px 10px;
+}
+
+.gallery .pics {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+  margin-bottom: 10px;
+}
+
+.gallery .pics img {
+  width: 100%;
+}
+
+.gallery .animation {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+@media (max-width: 960px) {
+  .gallery {
+    -webkit-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    column-width: 33%;
+  }
+}
+
+@media (max-width: 570px) {
+  .gallery {
+    -webkit-column-count: 2;
+    column-count: 2;
+    -webkit-column-width: 49%;
+    column-width: 49%;
+  }
+}
+
+@media (max-width: 450px) {
+  .gallery {
+    -webkit-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    column-width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .btn.filter {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+  }
+}
+
 /* header */
 header {
   margin-top: 50px;

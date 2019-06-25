@@ -22,6 +22,7 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
       <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri();?>/src/font/font.css">
       <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri();?>/src/styles/style.css">
+
    </head>
    <body data-spy="scroll" data-target=".navbar" data-offset="80">
 

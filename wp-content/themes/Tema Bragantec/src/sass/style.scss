@@ -3,6 +3,7 @@
 @import "./styleLarge";
 @import "./styleMobile";
 
+
 /* header */
 header{
     margin-top: 50px;
@@ -96,5 +97,19 @@ footer{
         h1{
             color:white;
         }
+    }
+}
+
+
+// Galeria
+.divGaleria{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    
+    .imgGaleria{
+      text-align: center;
+      padding: 10px;
+      
     }
 }

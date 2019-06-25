@@ -236,4 +236,18 @@ footer .footer-brand {
 footer .footer-brand h1, footer .footer-brand h2 {
   color: white;
 }
+
+.divGaleria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.divGaleria .imgGaleria {
+  text-align: center;
+  padding: 10px;
+}
 /*# sourceMappingURL=style.css.map */
